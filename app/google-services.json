@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "879737502058",
+    "firebase_url": "https://words3-9175d.firebaseio.com",
+    "project_id": "words3-9175d",
+    "storage_bucket": "words3-9175d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:879737502058:android:2f28162a268ae962",
+        "android_client_info": {
+          "package_name": "com.sumin.words"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "879737502058-sh6jme4734kmdf7b4t9ja9cq0061tmci.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBCuitTc4k5_jA2U6VQyTgAW9TKKR81j4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "879737502058-sh6jme4734kmdf7b4t9ja9cq0061tmci.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

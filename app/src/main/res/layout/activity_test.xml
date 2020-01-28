@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TestActivity">
+
+    <TextView
+        android:id="@+id/textViewEng"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:onClick="onClickShow"
+        android:text="Слово"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/textViewRus"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewRus"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@android:color/holo_blue_light"
+        android:gravity="center"
+        android:onClick="onClickShow"
+        android:text="@string/show_translate"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/textViewNo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textViewEng" />
+
+    <TextView
+        android:id="@+id/textViewNo"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+
+        android:background="@android:color/holo_orange_light"
+        android:text="Не знаю это слово"
+        android:onClick="onClickNo"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textViewYes"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewYes"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:background="@android:color/holo_green_light"
+        android:gravity="center"
+        android:text="Знаю это слово"
+        android:onClick="onClickYes"
+        android:textColor="#ffffff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/textViewNo" />
+
+
+
+</android.support.constraint.ConstraintLayout>

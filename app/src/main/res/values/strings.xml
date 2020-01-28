@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Words</string>
+    <string name="textview_eng">Введите оригинал Слова</string>
+    <string name="textview_rus">Введите перевод</string>
+    <string name="Button_add_word">Добавить слово</string>
+    <string name="warning_fill_fileds">Все поля должны быть заполнены</string>
+    <string name="show_translate">Показать перевод</string>
+
+</resources>
